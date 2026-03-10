@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Market Intelligence War Room</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar glass-panel">
+            <div class="sidebar-header">
+                <div class="logo"></div>
+                <h2>War Room</h2>
+            </div>
+            <form id="strategy-form">
+                <div class="form-group">
+                    <label for="business">Business Name</label>
+                    <input type="text" id="business" name="business" required placeholder="e.g. Acme Corp">
+                </div>
+                <div class="form-group">
+                    <label for="product">Product / Service</label>
+                    <input type="text" id="product" name="product" required placeholder="e.g. CRM Software">
+                </div>
+                <div class="form-group">
+                    <label for="price">Current Price</label>
+                    <input type="text" id="price" name="price" required placeholder="e.g. $49/mo">
+                </div>
+                <div class="form-group">
+                    <label for="competitor">Competitor Name</label>
+                    <input type="text" id="competitor" name="competitor" required placeholder="e.g. TechFlow">
+                </div>
+                <div class="form-group">
+                    <label for="target">Target Audience</label>
+                    <input type="text" id="target" name="target" required placeholder="e.g. SMBs">
+                </div>
+                <div class="form-group">
+                    <label for="platform">Marketing Platform</label>
+                    <select id="platform" name="platform" required>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Website">Website</option>
+                        <option value="WhatsApp">WhatsApp</option>
+                        <option value="Facebook">Facebook</option>
+                    </select>
+                </div>
